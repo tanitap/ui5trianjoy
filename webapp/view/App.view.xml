@@ -1,0 +1,16 @@
+<mvc:View
+  controllerName="view.App"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m">
+	
+	<Table>
+		<columns>	
+			<Column>
+				<Text text="Name"/>
+			</Column>
+		</columns>
+	</Table>
+	
+	
+	<Button text="Click" press="onPress"/>
+</mvc:View>
